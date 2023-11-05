@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import Mapbox from "../components/Mapbox";
+import Mapbox from "../Components/Mapbox";
 import { useState } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
