@@ -229,7 +229,7 @@ const Mapbox = () => {
       Math.floor(properties.tax_difference) || "N/A"
     }<br>
     <button class="p-2 mt-4 text-blue-400" onclick="window.open('/property/${
-      e.features[0].id
+      properties.blklot
     }', '_blank')">
  go to page</button> 
     <br>
@@ -248,7 +248,7 @@ const Mapbox = () => {
 
             const description = `
                 <!-- ... existing description code ... -->
-                <button class="p-2 mt-4 text-blue-400" onclick="window.open('/property/${e.features[0].id}', '_blank')">go to page</button> 
+                <button class="p-2 mt-4 text-blue-400" onclick="window.open('/property/${properties.blklot}', '_blank')">go to page</button> 
                 <br>
             `;
 
